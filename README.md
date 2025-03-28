@@ -20,9 +20,11 @@ This project automates API testing using Cypress for the Plaid API, covering:
    npx cypress open
 
 ## Project Structure
+```
 cypress/
   ├── tests/apiTests/        # Test cases for Plaid API
   ├── fixtures/*.json        # Stores tokens & account IDs
   ├── reports/               # Stores Generated report in index.html format
   ├── cypress.config.js      # Cypress configuration
   ├── cypress.env.json       # API credentials (Ignored in Git)
+```
